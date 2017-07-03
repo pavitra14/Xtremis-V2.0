@@ -1,10 +1,10 @@
-QuasarRAT
+Xtremis 2.0 (Based on QuasarRAT)
 =========
 [![Build status](https://ci.appveyor.com/api/projects/status/5857hfy6r1ltb5f2?svg=true)](https://ci.appveyor.com/project/MaxXor/quasarrat) [![Join the chat at https://gitter.im/quasar/QuasarRAT](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/quasar/QuasarRAT)
 
 **Free, Open-Source Remote Administration Tool for Windows**
 
-Quasar is a fast and light-weight remote administration tool coded in C#. Providing high stability and an easy-to-use user interface, Quasar is the perfect remote administration solution for you.
+Xtremis 2.0 is a fast and light-weight remote administration tool coded in C#. Providing high stability and an easy-to-use user interface, Xtremis 2.0 is the perfect remote administration solution for you.
 
 Features
 ---
@@ -60,9 +60,6 @@ Building a client
 | debug configuration         | The pre-defined [Settings.cs](/Client/Config/Settings.cs) will be used. The client builder does not work in this configuration. You can execute the client directly with the specified settings.
 | release configuration       | Use the client builder to build your client otherwise it is going to crash.
 
-ToDo
----
-* [Open Issues](https://github.com/quasar/QuasarRAT/issues)
 
 Contributing
 ---
@@ -72,12 +69,11 @@ License
 ---
 See [LICENSE](/LICENSE)
 
-Donate
----
-Bitcoin: `17eAafhEYnxmnj2nQ92tDFdDzATL27gcj`
-
 Credits
 ---
+QuasarRAT
+Copyright (c) 2016 MaxX0r
+
 NetSerializer  
 Copyright (c) 2015 Tomi Valkeinen  
 https://github.com/tomba/netserializer
