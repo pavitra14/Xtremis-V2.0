@@ -7,6 +7,7 @@ Xtremis 2.0 is a fast and light-weight remote administration tool coded in C#. P
 
 Features
 ---
+* **Xtremis 2.0 ** Exclusive : Auto encrypt the RAT Stub everytime with random hashes to prevent AV Detection (TODO)
 * TCP network stream (IPv4 & IPv6 support)
 * Fast network serialization (NetSerializer)
 * Compressed (QuickLZ) & Encrypted (AES-128) communication
