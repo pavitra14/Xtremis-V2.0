@@ -1,5 +1,7 @@
 Xtremis 2.0 (Based on QuasarRAT)
 =========
+[![Build status](https://ci.appveyor.com/api/projects/status/fk6a3mgm7h8ng32t?svg=true)](https://ci.appveyor.com/project/PavitraBehre/xtremis-v2-0)
+
 
 **Free, Open-Source Remote Administration Tool for Windows**
 
