@@ -103,7 +103,7 @@
             this.txtText.Name = "txtText";
             this.txtText.Size = new System.Drawing.Size(249, 22);
             this.txtText.TabIndex = 4;
-            this.txtText.Text = "You are running Quasar.";
+            this.txtText.Text = "You are running Xtremis 2.0.";
             // 
             // txtCaption
             // 
@@ -119,7 +119,7 @@
             this.lblText.AutoSize = true;
             this.lblText.Location = new System.Drawing.Point(24, 52);
             this.lblText.Name = "lblText";
-            this.lblText.Size = new System.Drawing.Size(30, 13);
+            this.lblText.Size = new System.Drawing.Size(29, 13);
             this.lblText.TabIndex = 3;
             this.lblText.Text = "Text:";
             // 

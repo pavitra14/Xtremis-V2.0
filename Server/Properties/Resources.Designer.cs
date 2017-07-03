@@ -451,17 +451,16 @@ namespace xServer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     Quasar - Remote Administration Tool
-        ///    Copyright (C) 2016 MaxX0r
+        ///   Looks up a localized string similar to     Xtremis 2.0 - Remote Administration Tool based on QuasarRAT(Copyright (C) 2016 MaxX0r)
         ///
-        ///    Quasar is free software: you can redistribute it and/or modify
+        ///    Xtremis 2.0 is free software: you can redistribute it and/or modify
         ///    it under the terms of the GNU General Public License as published by
         ///    the Free Software Foundation, either version 3 of the License, or
         ///    (at your option) any later version.
         ///
-        ///    Quasar is distributed in the hope that it will be useful,
+        ///    Xtremis 2.0 is distributed in the hope that it will be useful,
         ///    but WITHOUT ANY WARRANTY; without even the implied warranty of
-        ///    MERCHANTABILITY or FITNESS FOR A PARTICULAR PUR [rest of string was truncated]&quot;;.
+        ///    MERCHANTABILITY o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TermsOfUse {
             get {

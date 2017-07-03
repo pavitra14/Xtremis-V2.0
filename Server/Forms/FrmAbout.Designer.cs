@@ -36,8 +36,8 @@
             this.rtxtContent = new System.Windows.Forms.RichTextBox();
             this.lblLicense = new System.Windows.Forms.Label();
             this.lnkCredits = new System.Windows.Forms.LinkLabel();
-            this.lnkGithubPage = new System.Windows.Forms.LinkLabel();
             this.lblSubTitle = new System.Windows.Forms.Label();
+            this.lnkGithubPage = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,14 +57,14 @@
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(82, 7);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(79, 30);
+            this.lblTitle.Size = new System.Drawing.Size(115, 30);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Quasar";
+            this.lblTitle.Text = "Xtremis 2.0";
             // 
             // lblVersion
             // 
             this.lblVersion.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVersion.Location = new System.Drawing.Point(341, 40);
+            this.lblVersion.Location = new System.Drawing.Point(84, 80);
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(75, 13);
             this.lblVersion.TabIndex = 2;
@@ -105,24 +105,13 @@
             // lnkCredits
             // 
             this.lnkCredits.AutoSize = true;
-            this.lnkCredits.Location = new System.Drawing.Point(373, 80);
+            this.lnkCredits.Location = new System.Drawing.Point(283, 80);
             this.lnkCredits.Name = "lnkCredits";
-            this.lnkCredits.Size = new System.Drawing.Size(43, 13);
+            this.lnkCredits.Size = new System.Drawing.Size(103, 13);
             this.lnkCredits.TabIndex = 4;
             this.lnkCredits.TabStop = true;
-            this.lnkCredits.Text = "Credits";
+            this.lnkCredits.Text = "Credits(QuasarRAT)";
             this.lnkCredits.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCredits_LinkClicked);
-            // 
-            // lnkGithubPage
-            // 
-            this.lnkGithubPage.AutoSize = true;
-            this.lnkGithubPage.Location = new System.Drawing.Point(344, 60);
-            this.lnkGithubPage.Name = "lnkGithubPage";
-            this.lnkGithubPage.Size = new System.Drawing.Size(72, 13);
-            this.lnkGithubPage.TabIndex = 3;
-            this.lnkGithubPage.TabStop = true;
-            this.lnkGithubPage.Text = "GitHub Page";
-            this.lnkGithubPage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGithubPage_LinkClicked);
             // 
             // lblSubTitle
             // 
@@ -130,9 +119,20 @@
             this.lblSubTitle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubTitle.Location = new System.Drawing.Point(84, 37);
             this.lblSubTitle.Name = "lblSubTitle";
-            this.lblSubTitle.Size = new System.Drawing.Size(171, 17);
+            this.lblSubTitle.Size = new System.Drawing.Size(275, 17);
             this.lblSubTitle.TabIndex = 1;
-            this.lblSubTitle.Text = "Remote Administration Tool";
+            this.lblSubTitle.Text = "Remote Administration Tool based on Quasar";
+            // 
+            // lnkGithubPage
+            // 
+            this.lnkGithubPage.AutoSize = true;
+            this.lnkGithubPage.Location = new System.Drawing.Point(281, 63);
+            this.lnkGithubPage.Name = "lnkGithubPage";
+            this.lnkGithubPage.Size = new System.Drawing.Size(135, 13);
+            this.lnkGithubPage.TabIndex = 3;
+            this.lnkGithubPage.TabStop = true;
+            this.lnkGithubPage.Text = "GitHub Page (QuasarRAT)";
+            this.lnkGithubPage.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGithubPage_LinkClicked);
             // 
             // FrmAbout
             // 
@@ -157,7 +157,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quasar - About";
+            this.Text = "Xtremis 2.0";
             ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -173,7 +173,7 @@
         private System.Windows.Forms.RichTextBox rtxtContent;
         private System.Windows.Forms.Label lblLicense;
         private System.Windows.Forms.LinkLabel lnkCredits;
-        private System.Windows.Forms.LinkLabel lnkGithubPage;
         private System.Windows.Forms.Label lblSubTitle;
+        private System.Windows.Forms.LinkLabel lnkGithubPage;
     }
 }

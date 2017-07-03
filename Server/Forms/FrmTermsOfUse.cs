@@ -43,7 +43,7 @@ namespace xServer.Forms
 
         private void Wait20Sec()
         {
-            for (int i = 19; i >= 0; i--)
+            for (int i = 10; i >= 0; i--)
             {
                 Thread.Sleep(1000);
                 try

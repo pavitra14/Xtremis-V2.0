@@ -52,7 +52,7 @@
             this.lblToU.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblToU.Location = new System.Drawing.Point(12, 9);
             this.lblToU.Name = "lblToU";
-            this.lblToU.Size = new System.Drawing.Size(140, 30);
+            this.lblToU.Size = new System.Drawing.Size(138, 30);
             this.lblToU.TabIndex = 1;
             this.lblToU.Text = "Terms of Use";
             // 
@@ -104,7 +104,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmTermsOfUse";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quasar - Terms of Use";
+            this.Text = "Xtremis 2.0 - Terms of Use";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmTermsOfUse_FormClosing);
             this.Load += new System.EventHandler(this.FrmTermsOfUse_Load);
             this.ResumeLayout(false);
