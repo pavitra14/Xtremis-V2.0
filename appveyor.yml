@@ -1,0 +1,7 @@
+version: 2.0.{build}
+configuration:
+- Debug
+- Release
+build:
+  project: Xtremis2.0.sln
+  verbosity: minimal
