@@ -1,6 +1,6 @@
 Xtremis 2.0 (Based on QuasarRAT)
 =========
-[![Build status](https://ci.appveyor.com/api/projects/status/fk6a3mgm7h8ng32t?svg=true)](https://ci.appveyor.com/project/PavitraBehre/xtremis-v2-0)
+[![Build status](https://ci.appveyor.com/api/projects/status/rwn0khltkgam9yji?svg=true)](https://ci.appveyor.com/project/PavitraBehre/xtremis-v2-0)
 
 
 **Free, Open-Source Remote Administration Tool for Windows**
@@ -75,7 +75,8 @@ Credits
 ---
 QuasarRAT
 Copyright (c) 2016 MaxX0r
-
+
+
 NetSerializer  
 Copyright (c) 2015 Tomi Valkeinen  
 https://github.com/tomba/netserializer
